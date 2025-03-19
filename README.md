@@ -9,10 +9,10 @@ Secure Biometric Dogecoin Wallet
 
 1- Get an Hosting Account or Web Server or even a Github account that you can host it
 
-2- Upload the ```wallet/biometric.html``` to the host/server
+2- Upload all files in the folder ```wallet/``` to the host/server
 
 3- Go to your browser and acess to it. 
 
 ###Notes:
-- This is a proof of concept that is possible to generate secure Dogecoin Wallets using Biometrics and store it using Webauthn as credentials
+- This is a beta version and is using my own DogeBox as a node to track balance, transactions and send Doge
 - If you find any bug please report it.
