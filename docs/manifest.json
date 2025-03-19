@@ -1,0 +1,28 @@
+{
+  "name": "Biometric Doge Wallet",
+  "short_name": "DogeLock",
+  "description": "Secure Biometric Dogecoin Wallet",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#202F36",
+  "theme_color": "#202F36",    
+  "icons": [
+    {
+      "src": "./icons/1",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "dogecoin",
+      "url": "/index.html?url=%s"
+    }
+  ]
+}

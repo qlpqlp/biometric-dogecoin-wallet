@@ -1,0 +1,37 @@
+body { margin: 0px; padding: 0px; font-family: 'Comic Neue', cursive !important; background-color: #202F36; min-height: 50vh; display: flex; align-items: center; justify-content: center; }
+*{ font-weight: bold !important }
+h5{ border-bottom: solid 1px #89E219;}
+.btn-generate { background-color: #F48000; border-color: #F48000; color: #fff; }
+.btn-generate:hover { background-color: #89E219; border-color: #89E219; color: #202F36; }
+.btn-send { background-color: #F48000; border-color: #F48000; color: #fff; }
+.btn-send:hover { background-color: #e0a800; border-color: #e0a800; }
+.btn-view { background-color: #89E219; border-color: #89E219; color: #202F36; }
+.btn-view:hover { background-color: #fff; border-color: #89E219; color: #202F36; }
+.btn-danger { background-color: #F48000; border-color: #F48000; }
+.btn-danger:hover { background-color: #F48000; border-color: #F48000; }
+.btn-offline { background-color: #17a2b8; border-color: #17a2b8; color: #fff; }
+.btn-offline:hover { background-color: #138496; border-color: #138496; }
+.navbar-bottom { position: fixed; bottom: 0; left: 0; right: 0; background-color: #89E219; border-top: 1px solid #218838; padding: 10px 0; height: 50px; z-index: 1000; }
+.navbar-bottom .btn { display: flex; flex-direction: column; align-items: center; font-size: 0.8rem; padding: 0px; }
+.navbar-bottom .btn i { font-size: 1.5rem; margin-bottom: 5px; }
+.paw-btn { width: 70px; height: 70px; border-radius: 50%; background-color: #F48000; color: #fff; display: flex; justify-content: center; align-items: center; font-size: 2rem; margin: -30px auto 0; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+.paw-btn:hover { background-color: #fff; color: #F48000; }
+.wallet-btn, .config-btn { border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; }
+.wallet-btn:hover, .config-btn:hover { color: #fff; background-color: #202F36; padding: 20px; margin-top: -20px; margin-bottom: 20px; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%;}
+.container { max-width: 500px; }
+.card { border: 0px; background-color: transparent; color: #fff}
+#result { word-wrap: break-word; font-size: 1.1rem; margin-top: 0px !important; }
+.warning { font-size: 0.9rem; color: #fff; margin-top: 10px; }
+.input-group { margin-top: 10px; }
+#privateKeyInput { font-family: monospace; }
+.d-none { display: none; }
+.text-muted{ color: #fff !important; font-size: 14px;}
+#qrCode > img{ display: block;margin: auto;border-radius: 10px;border: 5px solid; max-width: 100%; }
+#qrCode > canvas{ display: block;margin: auto;border-radius: 10px;border: 5px solid; max-width: 100%; }
+#showPrivateKey { width: 100%; }
+.transactions-container { max-height: calc(100vh - 350px); overflow-y: auto; overflow-x: hidden; margin-bottom: 70px; -webkit-overflow-scrolling: touch; }
+.transaction-item { cursor: pointer; padding: 10px; border-bottom: 1px solid #eee; }
+.transaction-item:hover { background-color: #2a3f47; }
+.badge-received { background-color: #28a745; }
+.badge-spent { background-color: #dc3545; }
+.transaction-details { padding: 15px; background-color: #202F36; color: #fff; position: fixed; top: 0; left: 0; right: 0; bottom: 60px; overflow-y: auto; }
